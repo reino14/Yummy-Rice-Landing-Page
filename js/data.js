@@ -19,7 +19,7 @@ window.RB = {
   },
 
   // Harga satuan semua varian (poster: "ONLY 5K")
-  basePrice: 5000,
+  basePrice: 8000,
 
   // Paket bundling. Harga = total untuk `qty` pcs (campur rasa bebas).
   // Sistem otomatis memilih kombinasi paling hemat.
