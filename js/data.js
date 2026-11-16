@@ -10,8 +10,8 @@ window.RB = {
     area: 'Area Klikbi',
     mapQuery: 'Sekolah Vokasi IPB, Jl. Kumbang No.14, Babakan, Bogor Tengah, Kota Bogor',
     hours: { openLabel: '07.00', closeLabel: '13.00', openMin: 7 * 60, closeMin: 13 * 60 },
-    whatsapp: '08123456789',
-    whatsappIntl: '628123456789',
+    whatsapp: '087817933784',
+    whatsappIntl: '6287817933784',
     instagram: 'yum.ricebites',
     tiktok: 'yumricebites',
     deliveryNote: 'Pengantaran untuk area Klikbi & sekitar Sekolah Vokasi IPB.',
@@ -24,9 +24,9 @@ window.RB = {
   // Paket bundling. Harga = total untuk `qty` pcs (campur rasa bebas).
   // Sistem otomatis memilih kombinasi paling hemat.
   bundles: [
-    { qty: 3, price: 13000, name: 'Paket Hemat 3', tag: 'Ngemil bareng' },
-    { qty: 5, price: 22000, name: 'Paket Hemat 5', tag: 'Paling laris' },
-    { qty: 10, price: 42000, name: 'Paket Hemat 10', tag: 'Satu geng' },
+    { qty: 2, price: 14000, name: 'Paket Hemat 2', tag: 'Ngemil bareng' },
+    { qty: 5, price: 35000, name: 'Paket Hemat 5', tag: 'Paling laris' },
+    { qty: 10, price: 65000, name: 'Paket Hemat 10', tag: 'Satu geng' },
   ],
 
   // CONTOH MENU — ganti nama, deskripsi, dan foto sesuai produk asli.
