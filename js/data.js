@@ -57,7 +57,7 @@ window.RB = {
       id: 'tuna-mayo',
       name: 'Ayam Rendang',
       desc: 'Tuna creamy dengan saus mayo, lembut dan mengenyangkan.',
-      img: 'assets/ayam rendang.jpeg',
+      img: 'assets/Ayam Rendang.jpeg',
       badge: '',
     },
   ],

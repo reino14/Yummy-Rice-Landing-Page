@@ -161,7 +161,7 @@
       '<div class="stripes" aria-hidden="true"></div>' +
       '<footer class="footer"><div class="container footer-grid">' +
       '<div><a class="brand brand-light" href="index.html"><img src="assets/logo.png" alt="" width="52" height="52"><span>Yum <em>Ricebites</em></span></a>' +
-      "<p>" + esc(S.tagline) + "<br>Rice on the go — cuma 5K.</p></div>" +
+      "<p>" + esc(S.tagline) + "<br>Rice on the go — cuma 8K.</p></div>" +
       "<div><h4>Jelajahi</h4><ul>" +
       NAV.map(function (n) { return '<li><a href="' + n[1] + '">' + n[2] + "</a></li>"; }).join("") +
       '<li><a href="pesan.html">Pesan Online</a></li></ul></div>' +

@@ -22,7 +22,7 @@ Ganti foto di folder `assets/` (menu tanpa foto memakai logo sebagai placeholder
 
 ## Cara kerja bundling
 
-Semua varian berharga `basePrice` (Rp5.000). Sistem menghitung kombinasi paket termurah dari total pcs di keranjang
+Semua varian berharga `basePrice` (Rp8.000). Sistem menghitung kombinasi paket termurah dari total pcs di keranjang
 (mis. 8 pcs = Paket 5 + Paket 3 = Rp35.000). Tambah/ubah paket di `bundles` pada `data.js`.
 
 ## Pemesanan (prototype)
