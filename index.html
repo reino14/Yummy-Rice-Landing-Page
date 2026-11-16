@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yum Ricebites — Rice on the go, cuma 8K | Sekolah Vokasi IPB Bogor</title>
+    <meta name="description" content="Yum Ricebites: nasi kepal praktis isi ayam suwir, cuma 8K. Pesan online, beli bundling lebih hemat. Buka 07.00–13.00 di Sekolah Vokasi IPB, Bogor." />
+    <meta name="theme-color" content="#ff4aa8" />
+    <meta property="og:title" content="Yum Ricebites — Rice on the go, cuma 8K" />
+    <meta property="og:description" content="Your next quick meal starts here. Pesan online & bundling hemat." />
+    <meta property="og:image" content="assets/logo.png" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="home">
+    <div id="app-header"></div>
+
+    <main>
+      <!-- 3.2.1 Tampilan Halaman Utama -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div>
+            <p class="say">say hello to..</p>
+            <h1 id="hero-title">Ricebites</h1>
+            <p class="hero-sub">your next quick meal <b>starts here.</b></p>
+            <div class="hero-cta">
+              <a class="btn btn-pink" href="pesan.html">Pesan sekarang</a>
+              <a class="btn btn-ghost" href="menu.html">Lihat menu</a>
+            </div>
+            <div class="pills">
+              <span class="pill pill-outline">ONLY 5K</span>
+              <span class="pill pill-green" data-if="freeDelivery">FREE DELIVERY</span>
+              <span class="status" data-open-status></span>
+            </div>
+          </div>
+          <div class="hero-art">
+            <div class="stamp">
+              <img src="assets/food-hand.jpg" width="740" height="596" alt="Ricebites isi ayam suwir dalam kertas pembungkus, dipegang tangan" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rice on the go -->
+      <section class="otg" aria-label="Kenapa Ricebites">
+        <div class="container otg-grid">
+          <div>
+            <p class="otg-sub">your new favorite..</p>
+            <div class="otg-words" aria-label="Rice on the go"><span class="w-rice">Rice</span><span class="w-on">on</span><span class="w-the">the</span><span class="w-go">go</span></div>
+          </div>
+          <div class="perks">
+            <div class="perk">
+              <span class="em">🍙</span>
+              <div><b>Praktis dibawa</b><span>Dibungkus kertas, bisa dinikmati sambil jalan ke kelas.</span></div>
+            </div>
+            <div class="perk">
+              <span class="em">💸</span>
+              <div><b>Cuma 8K</b><span>Harga ramah kantong mahasiswa untuk semua varian.</span></div>
+            </div>
+            <div class="perk">
+              <span class="em">🛵</span>
+              <div><b>Pesan online</b><span>Isi keranjang, kirim lewat WhatsApp — tanpa ribet.</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3.2.2 Menu unggulan -->
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Menu</span>
+            <h2 class="section-title">Pilih <span class="script">favoritmu</span></h2>
+            <p class="section-lead">Beberapa menu andalan Ricebites. Tambah ke keranjang langsung dari sini.</p>
+          </div>
+          <div class="grid" id="featured"></div>
+          <div class="center"><a class="btn btn-green" href="menu.html">Lihat semua menu</a></div>
+        </div>
+      </section>
+
+      <!-- 3.2.5 Teaser promo bundling -->
+      <section class="section band-green-sec">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Promo</span>
+            <h2 class="section-title">Beli bundling, <span class="script" style="color: var(--pink-soft)">lebih hemat</span></h2>
+            <p class="section-lead">Campur rasa sesuka hati — diskon otomatis terhitung di keranjang.</p>
+          </div>
+          <div class="tiers" id="tiers"></div>
+        </div>
+      </section>
+
+      <!-- 3.2.3 Teaser lokasi -->
+      <section class="section">
+        <div class="container" style="max-width: 820px">
+          <div class="panel" style="text-align: center">
+            <span class="eyebrow">Lokasi</span>
+            <h2 class="section-title" style="font-size: clamp(32px, 5vw, 48px)">Mampir, yuk!</h2>
+            <p style="margin: 14px 0" data-shop="address">Sekolah Vokasi IPB, Jl. Kumbang No.14, RT.02/RW.06, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128</p>
+            <p style="margin: 0 0 18px"><b data-shop="area">Area Klikbi</b> · Buka <b data-shop="hours">07.00 – 13.00 WIB</b></p>
+            <p><span class="status" data-open-status></span></p>
+            <div class="hero-cta" style="justify-content: center; margin: 18px 0 0">
+              <a class="btn btn-pink" href="kontak.html">Lokasi & kontak</a>
+              <a class="btn btn-ghost" href="#" data-href="map" target="_blank" rel="noopener">Buka di Maps</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <h2>Lapar? Ricebites siap.</h2>
+          <p>Pesan sekarang dan ambil di lokasi — atau minta diantar.</p>
+          <a class="btn btn-green" href="pesan.html">Mulai pesan</a>
+        </div>
+      </section>
+    </main>
+
+    <div id="app-footer"></div>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
